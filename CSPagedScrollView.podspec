@@ -8,17 +8,19 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "CSPagedScrollView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Paged scroll view wrote in swiftUI."
 
   spec.description  = <<-DESC
   Pure SwiftUI framework, support pull to refresh and load more in custom scroll view.
+  			DESC
 
   spec.homepage     = "https://github.com/cristysui/CSPagedScrollView"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "cristy" => "cristy.xinsui@gmail.com" }
   spec.source       = { :git => "git@github.com:cristysui/CSPagedScrollView.git", :tag => "#{spec.version}" }
 
-  s.swift_version = "5.0"
-  s.ios.deployment_target = '14.0'
+  spec.swift_version = "5.0"
+  spec.ios.deployment_target = '14.0'
+
 end
