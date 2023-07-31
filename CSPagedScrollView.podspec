@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "CSPagedScrollView"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Paged scroll view wrote in swiftUI."
 
   spec.description  = <<-DESC
@@ -18,9 +18,11 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/cristysui/CSPagedScrollView"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "cristy" => "cristy.xinsui@gmail.com" }
-  spec.source       = { :git => "git@github.com:cristysui/CSPagedScrollView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cristysui/CSPagedScrollView.git", :tag => "#{spec.version}" }
 
   spec.swift_version = "5.0"
   spec.ios.deployment_target = '14.0'
+
+  spec.source_files = 'Sources/CSPagedScrollView/*.swift'
 
 end
